@@ -15,7 +15,7 @@ body {
 .jumbotron {
   min-height: 100vh;
   padding: 20rem 0 20rem;
-  background-image: url("./img/main-bg.jpg");
+  background-image: url("img/main-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -65,7 +65,7 @@ body {
 
 .features {
   padding: 20rem 0;
-  background-image: url("./img/features.jpg");
+  background-image: url("../img/features.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
