@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rock Paper Scissors</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/app_style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <nav class="d-flex gap-3 align-items-center">
+          <a class="call-back" href="index.html"><</a>
+          <span class="logo"><img src="img/logo 1.png" alt="logo" /></span>
+          <h3>Rock Paper Scissors</h3>
+        </nav>
+      </header>
+
+      <!-- Content -->
+
+      <div class="row">
+        <div class="col-6">
+          <h2 class="text-center mb-4" id="playerChoices">Player 1</h2>
+          <div class="buttons row text-center">
+            <div>
+              <img class="player-choice" data-value="rock" src="img/batu.png" />
+            </div>
+            <div>
+              <img
+                class="player-choice"
+                data-value="paper"
+                src="img/kertas.png"
+              />
+            </div>
+            <div>
+              <img
+                class="player-choice"
+                data-value="scissors"
+                src="img/gunting.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <h2 class="text-center mb-4" id="computerChoices">COM</h2>
+          <div class="buttons row text-center">
+            <div>
+              <img class="com-choice" data-value="rock" src="img/batu.png" />
+            </div>
+            <div>
+              <img class="com-choice" data-value="paper" src="img/kertas.png" />
+            </div>
+            <div>
+              <img
+                class="com-choice"
+                data-value="scissors"
+                src="img/gunting.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result -->
+
+      <div class="result text-center">
+        <span id="result">VS</span>
+      </div>
+
+      <!-- Reset button -->
+
+      <div class="row">
+        <div class="col text-center">
+          <p class="reset mt-4" id="resetButton">
+            <img src="./img/refresh.png" alt="Reset" />
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

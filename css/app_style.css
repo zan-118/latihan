@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #9c835f;
+  min-height: 100vh;
+}
+
+
+nav {
+  padding: 2rem;
+}
+
+nav a.call-back {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #724c21;
+}
+
+nav h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f9b23d;
+}
+
+nav img {
+  width: 72px;
+  height: 72px;
+}
+
+.player-choice {
+  padding: 2rem;
+}
+
+.player-choice:hover {
+  background: #c4c4c4;
+  border-radius: 30px;
+}
+.com-choice {
+  padding: 2rem;
+}
+
+#playerChoices {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#computerChoices {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.result {
+  position: relative;
+  bottom: 400px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #bd0000;
+  transform: rotate(-28.87deg);
+}
+
+.result .vs {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #bd0000;
+}
+
+.result .draw {
+  padding: 2rem;
+  border-radius: 0.6rem;
+  font-size: 2rem;
+  color: white;
+  background-color: #035b0c;
+}
+
+.result .player-wins {
+  padding: 2rem;
+  border-radius: 0.6rem;
+  font-size: 2rem;
+  color: white;
+  background-color: #4c9654;
+}
+
+.result .computer-wins {
+  padding: 2rem;
+  border-radius: 0.6rem;
+  font-size: 2rem;
+  color: white;
+  background-color: #4c9654;
+}
+
+#reset {
+  position: relative;
+  top: -200px;
+}
