@@ -36,7 +36,7 @@ body {
 
 .about {
   padding: 10rem 0;
-  background-image: url("/img/the-games-bg.jpg");
+  background-image: url("img/the-games-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -65,7 +65,7 @@ body {
 
 .features {
   padding: 20rem 0;
-  background-image: url("/img/features.jpg");
+  background-image: url("img/features.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -106,7 +106,7 @@ body {
 
 .requirements {
   padding-bottom: 5rem;
-  background-image: url("/img/requirements.png");
+  background-image: url("img/requirements.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -155,7 +155,7 @@ body {
 
 .quotes {
   min-height: 100vh;
-  background-image: url("/img/top-score-bg.png");
+  background-image: url("img/top-score-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -193,7 +193,7 @@ body {
 /* Newsletter */
 
 .newsletter {
-  background-image: url("/img/newsletter.png");
+  background-image: url("img/newsletter.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
