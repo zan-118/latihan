@@ -106,7 +106,7 @@ body {
 
 .requirements {
   padding-bottom: 5rem;
-  background-image: url("./img/requirements.png");
+  background-image: url("/img/requirements.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
